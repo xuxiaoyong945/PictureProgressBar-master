@@ -19,10 +19,10 @@ public class MainActivity extends AppCompatActivity {
         btn_start = (Button) findViewById(R.id.btn_start);
         pb_1 = (PictureProgressBar) findViewById(R.id.pb_1);
         pb_1.setDrawableIds(new int[]{R.drawable.i00,R.drawable.i01,R.drawable.i02,R.drawable.i03,R.drawable.i04,R.drawable.i05,R.drawable.i06});
-        pb_2 = (PictureProgressBar) findViewById(R.id.pb_1);
-        pb_3 = (PictureProgressBar) findViewById(R.id.pb_1);
-        pb_4 = (PictureProgressBar) findViewById(R.id.pb_1);
-        pb_5 = (PictureProgressBar) findViewById(R.id.pb_1);
+        pb_2 = (PictureProgressBar) findViewById(R.id.pb_2);
+        pb_3 = (PictureProgressBar) findViewById(R.id.pb_3);
+        pb_4 = (PictureProgressBar) findViewById(R.id.pb_4);
+        pb_5 = (PictureProgressBar) findViewById(R.id.pb_5);
 
         //使用属性动画来实现进度的变化
         final ValueAnimator valueAnimator = ValueAnimator.ofInt(0,10000);
